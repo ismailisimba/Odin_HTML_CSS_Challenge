@@ -8,11 +8,18 @@
   content: "";
   clear: both;
   display: table;
+	/*border-bottom: solid #323e48 ;*/
 }
 
 [class*="col-"] {
-  float: left;
-  padding: 15px;
+	float: left;
+	padding: 15px;
+	color: #a2a9ad;
+	font-family: "Myriad Pro", "Myriad Pro Black", "Myriad Pro Light", "Myriad Pro Black SemiExt", "Myriad Pro Cond";
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 12px;
 }
 
 html {
@@ -23,20 +30,26 @@ html {
   background-color: hsl(218, 64%, 33%);
   color: #a2a9ad;
   padding: 15px;
-	margin-top: 2px;
+	margin-top: 0.5%;
+	
+	position: -webkit-sticky;
+position: sticky;
+	top: 20px;
+	
+	
 }
 
 .navigation_duh {
-	background-color: #1e4488;
+	/*background-color: #1e4488;*/
 	display: inline-block;
 	text-align: right;
     color: #a2a9ad;
     content: '>';
     font-size: 90%;
     font-weight: bold;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+	/*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);*/
     
-	margin-bottom: 2px;
+	margin-bottom: 0.5%;
 }
 .navigation_duh:hover{
   background-color: #107869;
@@ -46,9 +59,9 @@ html {
 
 .menu {
   padding: 10px;
-  margin-right: 0px;
-	margin-left: 0px;
-	margin-top: 0px;
+  margin-right: 0.5%;
+	margin-left: 0.5%;
+	margin-top: 0.5%;
   background-color: #1e4488;
   color: #a2a9ad;
 	text-align: center;
@@ -83,7 +96,7 @@ html {
 
 @media only screen and (min-width: 600px) {
   /* For tablet: */
-  .col-s-1 {width: 20%;}
+  .col-s-1 {width: 24%;}
   .col-s-2 {width: 40%;}
   .col-s-3 {width: 60%;}
 	.col-s-4 {width: 80%;}
@@ -96,7 +109,7 @@ html {
   .col-1 {width: 5%;}
   .col-2 {width: 10%;}
   .col-3 {width: 15%;}
-	.col-4 {width: 20%;}
+	.col-4 {width: 19%;}
   .col-5 {width: 25%;}
   .col-6 {width: 30%;}
   .col-7 {width: 35%;}
@@ -118,9 +131,93 @@ html {
 
 
 
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #1e4488;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  color: #a2a9ad;
+	text-align: center;
+  
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  padding: 1%;
+  margin-right: 0.5%;
+	margin-left: 0.5%;
+	margin-top: 0.5%;
+	text-size: 12px;
+	
+	
+	background-color: #1e4488;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  color: #a2a9ad;
+	text-align: center;
+  
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: relative;
+   min-width: 100%;
+  /*z-index: 0;*/
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	
+	background-color: #1e4488;
+  color: #a2a9ad;
+	padding: 10px;
+  text-decoration: none;
+	text-align: center;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: none;
+	min-width: 100%;
+
+
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: inherit;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #107869;
+}
+
+
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #1E4488;
+  border: 2px solid #1e4488;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+}
+
+
+
+
 
 
 body {
-	background-color: #76bc43;
+	background-color: #76BC43;
 	
 }
