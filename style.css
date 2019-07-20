@@ -1,9 +1,17 @@
 @charset "utf-8";
 	
+/*This is the initial code for IST's new site. COMMENT EVRYTHING Please, you'll thank your idiot self later*/
+
+
+
+/*This is used to apply box-sizing to all columns via col-xxx classes*/
 * {
   box-sizing: border-box;
 }
 
+
+
+/*This is used to kind of move the next div to the next line*/
 .row::after {
   content: "";
   clear: both;
@@ -11,6 +19,9 @@
 	/*border-bottom: solid #323e48 ;*/
 }
 
+
+
+/*This is used to kind of move the next div to the next line*/
 [class*="col-"] {
 	float: left;
 	padding: 15px;
@@ -173,7 +184,7 @@ position: sticky;
 /* Links inside the dropdown */
 .dropdown-content a {
 	
-	background-color: #1e4488;
+	/*background-color: #1e4488;*/
   color: #a2a9ad;
 	padding: 10px;
   text-decoration: none;
